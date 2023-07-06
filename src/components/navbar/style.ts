@@ -1,12 +1,5 @@
+import {BurguerContentProps, NavLinksUrlProps} from "interfaces/NavBar";
 import {styled} from "styled-components";
-
-interface NavLinksUrlProps {
-  showMobileMenu?: boolean;
-}
-
-interface BurguerContentProps {
-  deviceHeight: number;
-}
 
 export const NavBarStld = styled.nav`
   @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");

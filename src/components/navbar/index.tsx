@@ -1,17 +1,9 @@
-import React, { useState, FunctionComponent, useEffect } from "react";
+import { useState, FunctionComponent, useEffect } from "react";
 import { ContainerLogo, NavBarStld, NavLinksUrl, NavLink, MobileMenuButton, BurguerContent } from './style'
 import utils from 'static/utils.json'
 import { imagePathResolve } from "utils/imageresolver";
-interface NavBarProps {
-
-}
-
-const links = [
-    { id: "Home", url: "#home" },
-    { id: "About", url: "#about" },
-    { id: "Projects", url: "#projects" },
-    { id: "Contact", url: "#contact" }
-]
+import { NavBarProps } from "interfaces/NavBar";
+import { links } from "utils/navbarlinks";
 
 const NavBar: FunctionComponent<NavBarProps> = () => {
     const logoPath = imagePathResolve(utils.full)
