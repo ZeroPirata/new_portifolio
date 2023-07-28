@@ -2,13 +2,12 @@ import {BurguerContentProps, NavLinksUrlProps} from "interfaces/NavBar";
 import {styled} from "styled-components";
 
 export const NavBarStld = styled.nav`
-  @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+  z-index: 100;
   position: fixed;
+  top: 0;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   border: none;
-  position: relative;
-  //font-family: "Itim", cursive;
   display: flex;
   background-color: white;
   &::after {
@@ -21,10 +20,9 @@ export const NavBarStld = styled.nav`
     background-image: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     height: 8vh;
     display: flex;
-    position: fixed;
     justify-content: space-between;
     align-items: center;
     min-height: auto;
@@ -46,7 +44,7 @@ export const ContainerLogo = styled.div`
   .namelogo {
     font-size: 2.5em;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     width: 100%;
     .namelogo {
       display: none;
@@ -64,7 +62,7 @@ export const NavLinksUrl = styled.div<NavLinksUrlProps>`
   justify-content: center;
   display: flex;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     display: ${(props) => (props.showMobileMenu ? "flex" : "none")};
   }
 `;
@@ -79,7 +77,7 @@ export const NavLink = styled.a`
     color: #d8ae5e;
     font-size: 2.5em;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     margin-top: 50px;
     border-bottom: 3px solid #d8ae5e;
     width: 90%;
@@ -95,7 +93,7 @@ export const MobileMenuButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     display: flex;
     margin: 0 25px;
     .closeIcon {
@@ -136,7 +134,7 @@ export const MobileMenuButton = styled.button`
 
 export const BurguerContent = styled.div<BurguerContentProps>`
   display: none;
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     height: ${(props) => props.deviceHeight}px;
     align-items: center;
     display: flex;
