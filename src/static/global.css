@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,23 +7,14 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
-
-html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Itim", cursive;
   line-height: 1.5;
   color: #333;
-  background-color: #D8AE5E;
+  background-color: #429cb5;
 }
 
 a {
