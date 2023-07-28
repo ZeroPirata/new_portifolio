@@ -25,8 +25,8 @@
       "equipe": "Scrum Master",
       "feitos": "Durante o meu primeiro contato com a metodologia Scrum, senti-me um pouco perdido nos primeiros dias do projeto. No entanto, à medida que me adaptei e peguei o ritmo, comecei a assumir um papel mais ativo na equipe. Eu me tornei responsável por preparar tarefas para serem realizadas, fornecendo materiais de suporte e orientações para auxiliar os colegas de equipe. Como eu era um dos membros mais experientes, também fazia o possível para ajudar os outros quando eles pediam.\nAlém disso, tive a oportunidade de trabalhar em conjunto com outro membro para desenvolvermos o relacionamento do nosso banco de dados e o back-end completo. Isso incluiu implementar recursos como autenticação e verificação de e-mail. Embora minha experiência com o front-end tenha sido mais breve, eu estava envolvido no ajuste final do produto para garantir que estivesse alinhado com o que havíamos planejado e também solucionando eventuais bugs que surgiam.\nNo geral, minha experiência com o Scrum foi desafiadora, mas gratificante. Conforme me envolvia mais ativamente na equipe, pude contribuir para o progresso do projeto, tanto na parte de planejamento e suporte aos colegas, como na implementação de funcionalidades importantes. Aprendi muito ao enfrentar obstáculos e corrigir problemas, e estou ansioso para aplicar esses aprendizados em futuros projetos Scrum."
     },
-    "dataInicio": "1630281600",
-    "dataFinal": "1636415999",
+    "dataInicio": 1630281600,
+    "dataFinal": 1636415999,
     "referencia": "https://github.com/Monkey-Type/API-DSM"
   },
   {
@@ -55,8 +55,8 @@
       "equipe": "Desenvolvedor",
       "feitos": "Nesse projeto, juntei-me à equipe de desenvolvedores, onde concentrei meus esforços principalmente no trabalho com o modelo de banco de dados e no desenvolvimento do back-end. Em colaboração com um membro da equipe, implementamos recursos como sistema de login, autenticação com JWT e envio de arquivos e imagens para o serviço de armazenamento S3 da AWS.\nEmbora tenha sido minha primeira experiência com TypeScript e React, enfrentamos algumas dificuldades iniciais. No entanto, à medida que o projeto avançava, conseguimos superar esses desafios e as coisas começaram a fluir de forma mais tranquila. Apesar de minha principal atuação estar no back-end, também assumi algumas tarefas relacionadas ao front-end, como integrações entre o servidor e o cliente, bem como o desenvolvimento de páginas necessárias para a experiência do usuário, incluindo a renderização de vídeos.\nAo longo do projeto, pude aprimorar minhas habilidades técnicas e ganhar experiência prática tanto no desenvolvimento de back-end quanto em tarefas do front-end. Foi gratificante ver o progresso e o impacto positivo do nosso trabalho no projeto."
     },
-    "dataInicio": "1649894400",
-    "dataFinal": "1654387200",
+    "dataInicio": 1649894400,
+    "dataFinal": 1654387200,
     "referencia": "https://github.com/excalibur-coders/IONICRH"
   },
   {
@@ -82,8 +82,8 @@
       "equipe": "Desenvolvedor",
       "feitos": "Neste projeto, desempenhei diversas funções relacionadas às tecnologias envolvidas. Fui responsável pela modelagem de dados, desenvolvimento de partes do back-end, implementação do serviço de autenticação, criação do front-end e integração entre o servidor e o cliente. Devido à nossa equipe reduzida, foi necessário assumir múltiplos papéis, abrangendo diferentes áreas do projeto.\nÀ medida que o tempo passava, nos adaptamos e encontramos um ritmo produtivo durante a reta final para cumprir todas as nossas promessas. Enfrentamos alguns desafios, como dificuldades na comunicação com o cliente, que ocasionalmente gerava confusões em relação ao conceito de cross-selling. Além disso, a gestão do tempo foi um fator crítico devido à quantidade de atividades que precisavam ser entregues dentro do prazo do semestre\nApesar dos desafios, conseguimos superá-los e entregar o projeto com sucesso. A experiência adquirida ao trabalhar em diferentes áreas do desenvolvimento nos permitiu ganhar conhecimento e habilidades valiosas, além de fortalecer a sinergia entre os membros da equipe. Estamos orgulhosos do nosso trabalho e dos resultados alcançados, mesmo diante das adversidades enfrentadas."
     },
-    "dataInicio": "1663459200",
-    "dataFinal": "1669507200",
+    "dataInicio": 1663459200,
+    "dataFinal": 1669507200,
     "referencia": "https://github.com/Group-NoName/noname-documentacoes"
   },
   {
@@ -119,8 +119,8 @@
       "equipe": "Desenvolvedor",
       "feitos": "Neste projeto, atuei como desenvolvedor, trabalhando em conjunto com outros membros da equipe para elaborar o fluxo da arquitetura, realizar a modelagem do banco de dados e desenvolver tanto o back-end quanto uma parte do embarcado. Um dos principais focos foi o uso do Firebase em tempo real, em que fui responsável por tratar e integrar esses dados em nossa aplicação, garantindo que tudo funcionasse de forma simultânea. Além disso, também participei do desenvolvimento do front-end, especialmente na criação do sistema de login, que permitia diferenciar usuários comuns de membros da empresa.\nOutro aspecto relevante em que dediquei esforços foi a integração contínua. Realizei testes de integração utilizando o Cypress e também contribuí para a melhoria da qualidade do código. Nesse sentido, utilizamos o SonarQube, que foi acionado por meio das GitHub Actions. Essas medidas nos ajudaram a garantir a estabilidade e a confiabilidade do projeto.\nAo longo do desenvolvimento, enfrentamos desafios que exigiram resolução de problemas e colaboração em equipe. No entanto, com dedicação e trabalho em conjunto, superamos os obstáculos e alcançamos resultados satisfatórios. A experiência adquirida durante o projeto foi enriquecedora, permitindo-me aprimorar minhas habilidades em diferentes áreas, bem como fortalecer a compreensão da importância da integração contínua e da qualidade do código. Estou orgulhoso do nosso trabalho e do impacto positivo que ele teve no projeto como um todo."
     },
-    "dataInicio": "1678665600",
-    "dataFinal": "1684108800",
+    "dataInicio": 1678665600,
+    "dataFinal": 1684108800,
     "referencia": "https://github.com/TheAchieversDSM/API-2023.1"
   }
 ]
