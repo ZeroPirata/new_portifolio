@@ -6,10 +6,10 @@
     "desafio": "Diante de uma pandemia que se espalhou pelo mundo, as instituições de ensino enfrentaram um grande desafio ao terem que adaptar rapidamente suas atividades acadêmicas para o ensino remoto. Como resultado, houve um aumento significativo no uso de e-mails como ferramenta de comunicação dentro dessas instituições, o que gerou diversos problemas de perda de informações. Com o objetivo de resolver essa questão, a FATEC São José dos Campos propôs aos alunos do primeiro semestre do curso de Desenvolvimento de Software Multiplataforma (DSM) a criação de um portal de informações para o corpo docente, discente e administrativo da Fatec SJC. Esse portal teria a capacidade de exibir e gerar avisos de forma seletiva e controlada, tanto gerais como específicos para cada usuário, levando em consideração as respectivas hierarquias existentes na universidade. O propósito dessa iniciativa era melhorar a comunicação interna da instituição.",
     "metodologia": "Scrum",
     "imagens": [
-      "./monkey-type/um.png",
-      "./monkey-type/dois.png",
-      "./monkey-type/tres.png",
-      "./monkey-type/quatro.png"
+      "/monkeytype/um.png",
+      "/monkeytype/dois.png",
+      "/monkeytype/tres.png",
+      "/monkeytype/quatro.png"
     ],
     "tecnologia": [
       {"nome": "HTML", "img": ""},
@@ -93,10 +93,10 @@
     "desafio": "A Tecsus é uma startup que coleta e realiza processamentos de dados atráves de redes de sensores sem fio, denominados, também, Internet das Coisas, o IoT, na área de utilidades, como por exemplo abastecimento de água, distribuição de eletricidade e gás natural. A partir disso, com o intuito de expandir seu portfólio para o monitoramento ambiental e envolver alunos do Ensino Médio com a aprendizagem baseada em problemas, a Tecsus optou por desenvolver estações meteorológicas de baixo custo.\nPara o sucesso desse projeto, as medidas enviadas pelos sensores devem ser coletadas e tratadas, de modo que elas possam ser visualizadas através de um portal no formato de relatórios e dashboards. Além da parte informativa, contando até mesmo com a apresentação de conceitos matemáticos para os cálculos dos parâmetros, o sistema tem como objetivo relacionar a importância do monitoramento ambiental como ferramenta para evitar possíveis desastres naturais através da geração de alertas.",
     "metodologia": "Scrum",
     "imagens": [
-      "./tecsus/um.png",
-      "./tecsus/dois.png",
-      "./tecsus/tres.jpg",
-      "./tecsus/quatro.jpg"
+      "/tecsus/um.png",
+      "/tecsus/dois.png",
+      "/tecsus/tres.jpg",
+      "/tecsus/quatro.jpg"
     ],
     "tecnologia": [
       {"nome": "FireBase", "img": ""},
