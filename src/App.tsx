@@ -14,8 +14,8 @@ function App() {
   return (
     <AppContainer>
       <NavBar />
-      <Main />
-      <About />
+      {/* <Main /> */}
+      {/* <About /> */}
       <Project />
       <Contact />
     </AppContainer>

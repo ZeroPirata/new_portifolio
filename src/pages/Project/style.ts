@@ -1,12 +1,21 @@
 import {styled} from "styled-components";
 
-export const ProjectsContainer = styled.section<{accentColor: string}>`
+export const ProjectsContainer: any = styled.section<{accentColor: string}>`
   *,
   *::before,
   *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
+  }
+  
+  h1 {
+    margin-top: 6vh;
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    text-shadow: 4px 2px 2px #fff;
   }
 
   li {
@@ -26,10 +35,6 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     background: var(--bgColor);
   }
 
-  h1 {
-    text-align: center;
-  }
-
   ul {
     --col-gap: 2rem;
     --row-gap: 2rem;
@@ -43,7 +48,44 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     margin-inline: auto;
   }
 
-  /* line */
+  .company {
+    display: flex;
+    p {
+      font-weight: bold;
+      margin: 0 5px;
+    }
+  }
+
+  .project-date > span {
+    display: flex;
+    p {
+      font-weight: bold;
+      margin: 0 5px;
+    }
+  }
+
+  .descr {
+    position: relative;
+    overflow: hidden;
+    max-height: 150px;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .see-more {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    button {
+      background-color: transparent;
+      font-size: 1.5em;
+    }
+    button:hover {
+      color: red;
+    }
+  }
+
   ul::before {
     content: "";
     grid-column: 1;
@@ -52,14 +94,10 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     border-radius: calc(var(--line-w) / 2);
   }
 
-  /* columns*/
-
-  /* row gaps */
   ul li:not(:last-child) {
     margin-bottom: var(--row-gap);
   }
 
-  /* card */
   ul li {
     grid-column: 2;
     --inlineP: 1.5rem;
@@ -69,27 +107,20 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     grid-template-rows: min-content min-content min-content;
   }
 
-  /* date */
   ul li .date {
     --dateH: 3rem;
     height: var(--dateH);
     margin-inline: calc(var(--inlineP) * -1);
-
     text-align: center;
     background-color: ${(props) => props.accentColor};
-
-    color: white;
     font-size: 1.25rem;
     font-weight: 700;
-
     display: grid;
     place-content: center;
     position: relative;
-
     border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
   }
 
-  /* date flap */
   ul li .date::before {
     content: "";
     width: var(--inlineP);
@@ -102,7 +133,6 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     right: 0;
   }
 
-  /* circle */
   ul li .date::after {
     content: "";
     position: absolute;
@@ -116,11 +146,6 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     transform: translate(50%, -50%);
     right: calc(100% + var(--col-gap) + var(--line-w) / 2);
   }
-  .descr {
-    position: relative;
-    overflow: hidden;
-    max-height: 150px;
-  }
 
   ul li .title,
   ul li .descr {
@@ -131,7 +156,7 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
   ul li .title {
     overflow: hidden;
     padding-block-start: 1.5rem;
-    padding-block-end: 1rem;
+    padding-block-end: 0.25rem;
     font-weight: 500;
   }
   ul li .descr {
@@ -139,7 +164,6 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
     font-weight: 300;
   }
 
-  /* shadows */
   ul li .title::before,
   ul li .descr::before {
     content: "...";
@@ -175,7 +199,6 @@ export const ProjectsContainer = styled.section<{accentColor: string}>`
       grid-column: 3;
     }
 
-    /* start second card */
     ul li:nth-child(2) {
       grid-row: 2/4;
     }
