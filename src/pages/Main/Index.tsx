@@ -3,9 +3,12 @@ import { FunctionComponent } from "react";
 import { BodyContainer } from "./style";
 import { imagePathResolve } from 'utils/imageresolver'
 import utils from "static/utils.json"
+import midiasJson from "static/midias.json"
+import { IMidias } from "interfaces/midias";
 
 const Main: FunctionComponent<MainProps> = () => {
     const profileImg = imagePathResolve(utils.profile)
+    const midias: IMidias[] = midiasJson
     return (
         <BodyContainer id="home">
             <section className="body-section">
@@ -21,6 +24,15 @@ const Main: FunctionComponent<MainProps> = () => {
                     </div>
                     <div className="motivation">
                         <p>{utils.motivation}</p>
+                    </div>
+                    <div className="midia-projetc">
+                        {midias.map(midia => (
+                            <div className="map-midia">
+                                <a href={midia.name === "email" ? `mailto:${midia.url}` : midia.url} target="_blank" rel="noopener noreferrer">
+                                    <img className="midia-imgs" src={midia.img} alt={midia.name} />
+                                </a>
+                            </div>
+                        ))}
                     </div>
                 </section>
             </section>

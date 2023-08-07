@@ -5,14 +5,16 @@ export const BodyContainer = styled.section`
   display: flex;
   align-items: center;
   width: 100%;
-
   .body-section {
     width: 100%;
     height: 50%;
+    justify-items: center;
+    align-items: center;
     display: flex;
     justify-content: center;
     .profile-image-container {
-      width: 30%;
+      height: 80%;
+      width: 25%;
       display: flex;
       justify-content: center;
     }
@@ -31,14 +33,32 @@ export const BodyContainer = styled.section`
       }
     }
     .profile-about {
-      width: 70%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .midia-projetc {
+        margin: 20px 0;
+        display: flex;
+        width: 35%;
+        height: 15%;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        .map-midia {
+          .midia-imgs {
+            width: 100%;
+            height: 60px;
+          }
+        }
+      }
       .basic-information {
         display: flex;
         h3 {
           color: white;
           display: flex;
           align-items: end;
-          font-size: 96px;
+          font-size: 78px;
           line-height: 100%;
         }
         h4 {
@@ -51,7 +71,6 @@ export const BodyContainer = styled.section`
         }
       }
       .motivation {
-        width: 75%;
         p {
           color: white;
           font-size: 30px;
