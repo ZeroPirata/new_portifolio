@@ -1,6 +1,24 @@
 {
-  "logo": "/logo/logo_1.png",
-  "full": "/logo/logo_2.png",
-  "profile": "/profile/profile.jpg",
+  "name": "Gabriel Souza Bicho Nunes",
+  "function": "Desenvolvedor Full Stack",
+  "hardSkill": [
+    "Desenvolvimento de softwares",
+    "Banco de dados",
+    "Python",
+    "Type/Java Script",
+    "Java",
+    "C#",
+    "Git",
+    "CI/CD",
+    "Docker"
+  ],
+  "softSkill": [
+    "Trabalho em equipe",
+    "Comunicativo",
+    "Amigavel",
+    "Companheiro",
+    "Flexibilidade",
+    "Liderança"
+  ],
   "motivation": "Motivated by the holistic view of web development, integrating skills across all leagues from server to client to create complete and impactful solutions."
 }

@@ -1,0 +1,33 @@
+.sidebutton {
+    background-color: green;
+    height: 75vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-sideButton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-options {
+    background-color: transparent !important;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.bigger-icon {
+    font-size: 75px;
+}

@@ -1,24 +1,22 @@
-import NavBar from './components/navbar';
-import './static/global.css'
-import Main from 'pages/Main/Index';
-import { styled } from 'styled-components';
-import About from 'pages/About/Index';
-import Project from 'pages/Project/Index';
-import Contact from 'pages/Contact/Index';
-
-export const AppContainer = styled.body`
-  overflow-x: hidden;
-`;
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { AboutPage, ProjectPage, WorksPage } from "./pages/inedx";
+import { SideButton } from "components";
+import "./static/global.css";
 
 function App() {
   return (
-    <AppContainer>
-      <NavBar />
-      {/* <Main /> */}
-      {/* <About /> */}
-      <Project />
-      <Contact />
-    </AppContainer>
+    <Router>
+      <div className="container-fluid main">
+        <div className="row main align-items-center justify-content-evenly">
+          <SideButton />
+          <Routes>
+            <Route path="/" element={<AboutPage />} />
+            <Route path="/project" element={<ProjectPage />} />
+            <Route path="/works" element={<WorksPage />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
