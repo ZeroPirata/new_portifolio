@@ -1,8 +1,11 @@
-export const formatUnixtimeToDate = (unixtime: number): string => {
-  const unixtimeInSeconds = unixtime * 1000;
-  const dateObject = new Date(unixtimeInSeconds);
-  const day = dateObject.getUTCDate().toString().padStart(2, "0");
-  const month = (dateObject.getUTCMonth() + 1).toString().padStart(2, "0");
-  const year = dateObject.getUTCFullYear().toString();
-  return `${month}/${day}/${year}`;
+import { format } from "date-fns-tz";
+import { Locale } from "locale";
+
+export const formatLocalDatetime = (unixtime: number) => {
+  const dateObject = new Date(unixtime * 1000);
+  const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const formattedDate = format(dateObject, "dd/MM/yyyy", {
+    timeZone: userTimezone,
+  });
+  return formattedDate;
 };

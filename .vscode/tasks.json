@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "frontend-dependencies",
+            "type": "shell",
+            "command": "cd ${workspaceFolder}/frontend-livinglab && npm install",
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem",
+                "close": true
+            }
+        },
+        {
+            "label": "backend-dependencies",
+            "type": "shell",
+            "command": "cd ${workspaceFolder}/service-livinglab",
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem",
+                "close": true
+            }
+        }
+    ]
+}

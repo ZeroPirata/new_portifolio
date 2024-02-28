@@ -1,23 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;800&family=Inter&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
 }
 
-body {
-  font-family: "Itim", cursive;
-  line-height: 1.5;
-  color: #333;
-  background-color: #429cb5;
+.main {
+  height: 100vh;
+  background-color: var(--ColorGray);
 }
 
-a {
-  text-decoration: none;
-  color: black;
+:root {
+  --ColorDarkBlue: #010326;
+  --ColorMiddleBlue: #010B40;
+  --ColorLightBlue: #022859;
+  --ColorBlue: #20638C;
+  --ColorBrow: #8C7F77;
 }
