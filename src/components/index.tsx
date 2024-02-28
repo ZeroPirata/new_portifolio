@@ -1,3 +1,3 @@
-import { SideButton } from "./SideButton";
+import { SocialIcons } from "./SocialIcons";
 
-export { SideButton };
+export { SocialIcons };

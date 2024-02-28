@@ -1,5 +1,9 @@
-import { AboutPage } from "./About/index";
-import { ProjectPage } from "./Projects/index";
-import { WorksPage } from "./Works/index";
+import Profile from "./profile";
 
-export { AboutPage, ProjectPage, WorksPage};
+const Leading = () => {
+    return (
+        <Profile />
+    );
+};
+
+export default Leading;

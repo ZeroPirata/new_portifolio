@@ -12,14 +12,14 @@
       "/monkeytype/quatro.png"
     ],
     "tecnologia": [
-      {"nome": "HTML", "img": ""},
-      {"nome": "CSS3", "img": ""},
-      {"nome": "JavaScript", "img": ""},
-      {"nome": "Python", "img": ""},
-      {"nome": "Flask", "img": ""},
-      {"nome": "Tailwindcss", "img": ""},
-      {"nome": "PostGress", "img": ""},
-      {"nome": "Git", "img": ""}
+      { "nome": "HTML", "img": "" },
+      { "nome": "CSS3", "img": "" },
+      { "nome": "JavaScript", "img": "" },
+      { "nome": "Python", "img": "" },
+      { "nome": "Flask", "img": "" },
+      { "nome": "Tailwindcss", "img": "" },
+      { "nome": "PostGress", "img": "" },
+      { "nome": "Git", "img": "" }
     ],
     "papel": {
       "equipe": "Scrum Master",
@@ -41,15 +41,15 @@
       "https://github.com/excalibur-coders/IONICRH/blob/master/docs/sprint3/modelagem.PNG?raw=true"
     ],
     "tecnologia": [
-      {"nome": "MySQL", "img": ""},
-      {"nome": "NodeJS", "img": ""},
-      {"nome": "HTML", "img": ""},
-      {"nome": "CSS3", "img": ""},
-      {"nome": "JavaScript", "img": ""},
-      {"nome": "React", "img": ""},
-      {"nome": "Typescript", "img": ""},
-      {"nome": "Git", "img": ""},
-      {"nome": "Aws s3", "img": ""}
+      { "nome": "MySQL", "img": "" },
+      { "nome": "NodeJS", "img": "" },
+      { "nome": "HTML", "img": "" },
+      { "nome": "CSS3", "img": "" },
+      { "nome": "JavaScript", "img": "" },
+      { "nome": "React", "img": "" },
+      { "nome": "Typescript", "img": "" },
+      { "nome": "Git", "img": "" },
+      { "nome": "Aws s3", "img": "" }
     ],
     "papel": {
       "equipe": "Desenvolvedor",
@@ -71,12 +71,12 @@
       "https://user-images.githubusercontent.com/88664252/200199651-d9951e46-669e-4b42-b8b4-50d5ad3460d0.png"
     ],
     "tecnologia": [
-      {"nome": "Java", "img": ""},
-      {"nome": "Spring", "img": ""},
-      {"nome": "MongDB", "img": ""},
-      {"nome": "React", "img": ""},
-      {"nome": "NodeJS", "img": ""},
-      {"nome": "Typescript", "img": ""}
+      { "nome": "Java", "img": "" },
+      { "nome": "Spring", "img": "" },
+      { "nome": "MongDB", "img": "" },
+      { "nome": "React", "img": "" },
+      { "nome": "NodeJS", "img": "" },
+      { "nome": "Typescript", "img": "" }
     ],
     "papel": {
       "equipe": "Desenvolvedor",
@@ -99,21 +99,21 @@
       "/tecsus/quatro.jpg"
     ],
     "tecnologia": [
-      {"nome": "FireBase", "img": ""},
-      {"nome": "React", "img": ""},
-      {"nome": "Flask", "img": ""},
-      {"nome": "React", "img": ""},
-      {"nome": "Typescript", "img": ""},
-      {"nome": "C", "img": ""},
-      {"nome": "Arduino/ESP32", "img": ""},
-      {"nome": "MySQL", "img": ""},
-      {"nome": "NodeJS", "img": ""},
-      {"nome": "Git", "img": ""},
-      {"nome": "GitHub Actions", "img": ""},
-      {"nome": "SonarQuebe", "img": ""},
-      {"nome": "Jest", "img": ""},
-      {"nome": "Cypress", "img": ""},
-      {"nome": "Python", "img": ""}
+      { "nome": "FireBase", "img": "" },
+      { "nome": "React", "img": "" },
+      { "nome": "Flask", "img": "" },
+      { "nome": "React", "img": "" },
+      { "nome": "Typescript", "img": "" },
+      { "nome": "C", "img": "" },
+      { "nome": "Arduino/ESP32", "img": "" },
+      { "nome": "MySQL", "img": "" },
+      { "nome": "NodeJS", "img": "" },
+      { "nome": "Git", "img": "" },
+      { "nome": "GitHub Actions", "img": "" },
+      { "nome": "SonarQuebe", "img": "" },
+      { "nome": "Jest", "img": "" },
+      { "nome": "Cypress", "img": "" },
+      { "nome": "Python", "img": "" }
     ],
     "papel": {
       "equipe": "Desenvolvedor",
