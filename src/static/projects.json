@@ -36,9 +36,9 @@
     "desafio": "Em colaboração com a área de Recursos Humanos e Departamento Pessoal, foi proposto o desenvolvimento de uma plataforma para o controle de talentos da empresa, ou seja, dos funcionários. O sistema tem como objetivo principal unificar processos importantes não apenas para o departamento de RH, mas para toda a empresa. Em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD), a plataforma permite o cadastro de colaboradores, sejam eles contratados como CLT ou PJ, fornecendo informações sobre sua contratação, controle de documentos, dados pessoais e outros recursos.\nA ideia do sistema foi definida em conjunto pela equipe de desenvolvimento e o cliente, visando facilitar o processo de contratação. O Administrador de RH realiza a criação inicial do novo colaborador e, em seguida, o colaborador faz o processo de auto-cadastro, permitindo que o administrador revise e aprove as informações enviadas. Cada colaborador terá um perfil próprio, com acesso a um organograma dividido por departamentos, uma lista de usuários e também poderá acessar uma Trilha de Aprendizagem. A Trilha de Aprendizagem oferece a possibilidade de enviar materiais e cursos específicos para os colaboradores.\nO desafio deste projeto é apoiar a área de Recursos Humanos e Departamento Pessoal, buscando melhorar seus processos administrativos por meio do desenvolvimento de um sistema de controle de talentos da empresa. Após a aprovação no processo seletivo, é necessário automatizar o cadastro do colaborador (seja ele CLT ou PJ) em um sistema que forneça informações sobre sua contratação, controle de documentação, dados pessoais, entre outros. A conformidade com a LGPD é essencial para garantir o acesso restrito e seguro aos dados.",
     "metodologia": "Scrum",
     "imagens": [
-      "https://github.com/excalibur-coders/IONICRH/blob/master/docs/sprint0/cadastrar_user.PNG",
-      "https://github.com/excalibur-coders/IONICRH/blob/master/docs/sprint0/auto_cadastro.PNG",
-      "https://github.com/excalibur-coders/IONICRH/blob/master/docs/sprint3/modelagem.PNG?raw=true"
+      "https://raw.githubusercontent.com/excalibur-coders/IONICRH/master/docs/sprint0/cadastrar_user.PNG",
+      "https://raw.githubusercontent.com/excalibur-coders/IONICRH/master/docs/sprint0/auto_cadastro.PNG",
+      "https://raw.githubusercontent.com/excalibur-coders/IONICRH/master/docs/sprint3/modelagem.PNG"
     ],
     "tecnologia": [
       { "nome": "MySQL", "img": "" },

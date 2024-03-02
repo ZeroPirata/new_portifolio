@@ -1,145 +1,145 @@
 {
-    /**     Formatter    **/
-    "prettier.configPath": "frontend-livinglab/.prettierrc.json",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    /**     EDITOR    **/
-    "workbench.iconTheme": "material-icon-theme",
-    "explorer.compactFolders": false,
-    "editor.colorDecorators": true,
-    "editor.guides.bracketPairs": true,
-    "editor.guides.highlightActiveBracketPair": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.minimap.scale": 2,
-    "editor.minimap.maxColumn": 25,
-    "editor.minimap.renderCharacters": true,
-    "editor.renderWhitespace": "boundary",
-    "editor.semanticHighlighting.enabled": true,
-    "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {
-            "comments": "#918e8e",
-            //"strings": "#FF0000"
-            "textMateRules": [
-                {
-                    "scope": [
-                        "comment.block.documentation",
-                        "punctuation.definition.comment.begin.documentation",
-                        "punctuation.definition.comment.end.documentation"
-                    ],
-                    "settings": {
-                        "foreground": "#6bddb7",
-                        "fontStyle": "bold"
-                    }
-                }
-            ]
-        },
-        "[One Dark Pro]": {}
-    },
-    "search.useGlobalIgnoreFiles": true,
-    "python.linting.enabled": true,
-    "files.associations": {
-        "*.log-viewer": "log"
-    },
-    /**    Better Comments    **/
-    "better-comments.multilineComments": true,
-    "better-comments.highlightPlainText": true,
-    /**    TODO Highlight    **/
-    "todohighlight.isEnable": true,
-    "todohighlight.isCaseSensitive": false,
-    "todohighlight.keywords": [
+  /**     Formatter    **/
+  "prettier.configPath": "frontend-livinglab/.prettierrc.json",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  /**     EDITOR    **/
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.compactFolders": false,
+  "editor.colorDecorators": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.scale": 2,
+  "editor.minimap.maxColumn": 25,
+  "editor.minimap.renderCharacters": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "comments": "#918e8e",
+      //"strings": "#FF0000"
+      "textMateRules": [
         {
-            "text": "@TODO:",
-            "color": "#6D8BF9",
-            "fontWeight": "bold",
-            "border": "2px dashed #6D8BF9",
-            "backgroundColor": "rgba(0,0,0,.2)",
-            "isWholeLine": true
-        },
-        {
-            "text": "@CRITIC:",
-            "color": "red",
-            "fontWeight": "bold",
-            "border": "2px dashed #F31C1C",
-            "backgroundColor": "rgba(0,0,0,.2)",
-            "isWholeLine": true
-        },
-        {
-            "text": "@DEBUG:",
-            "fontWeight": "bold",
-            "border": "2px dashed #000",
-            "color": "#000",
-            "backgroundColor": "#F5F96D",
-            "isWholeLine": true
-        },
-        {
-            "text": "@NOTE:",
-            "color": "#fff",
-            "backgroundColor": "#6D8BF9",
-            "overviewRulerColor": "grey",
-            "isWholeLine": true
-        },
-        {
-            "text": "@REVIEW:",
-            "color": "#000",
-            "backgroundColor": "#d4d4d4",
-            "isWholeLine": true
-        },
-        {
-            "text": "@HACK:",
-            "color": "#000",
-            "backgroundColor": "#00f000",
-            "isWholeLine": true
-        },
-        {
-            "text": "@TEST-ME",
-            "color": "#fff",
-            "border": "2px groove #664",
-            "backgroundColor": "#f55f00",
-            "isWholeLine": true
-        },
-        {
-            "text": "@TEST-THIS:",
-            "color": "#000",
-            "border": "2px groove #664",
-            "backgroundColor": "#f55f00",
-            "isWholeLine": true
+          "scope": [
+            "comment.block.documentation",
+            "punctuation.definition.comment.begin.documentation",
+            "punctuation.definition.comment.end.documentation"
+          ],
+          "settings": {
+            "foreground": "#6bddb7",
+            "fontStyle": "bold"
+          }
         }
-    ],
-    "todohighlight.defaultStyle": {
-        "color": "red",
-        "cursor": "pointer",
-        "border": "none",
-        "borderRadius": "4px"
+      ]
     },
-    "todohighlight.include": [
-        "**/*.js",
-        "**/*.jsx",
-        "**/*.ts",
-        "**/*.tsx",
-        "**/*.html",
-        "**/*.py",
-        "**/*.c",
-        "**/*.cc",
-        "**/*.cplusplus",
-        "**/*.css",
-        "**/*.scss",
-        "**/*.md",
-        "**/*.log",
-        "**/*.ini",
-        "**/*.txt"
-    ],
-    "todohighlight.exclude": [
-        "**/node_modules/**",
-        "**/bower_components/**",
-        "**/dist/**",
-        "**/build/**",
-        "**/.vscode/**",
-        "**/.github/**",
-        "**/_output/**",
-        "**/*.min.*",
-        "**/*.map",
-        "**/.next/**"
-    ],
-    "todohighlight.maxFilesForSearch": 5120,
-    "todohighlight.toggleURI": false
+    "[One Dark Pro]": {}
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "python.linting.enabled": true,
+  "files.associations": {
+    "*.log-viewer": "log"
+  },
+  /**    Better Comments    **/
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": true,
+  /**    TODO Highlight    **/
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [
+    {
+      "text": "@TODO:",
+      "color": "#6D8BF9",
+      "fontWeight": "bold",
+      "border": "2px dashed #6D8BF9",
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "isWholeLine": true
+    },
+    {
+      "text": "@CRITIC:",
+      "color": "red",
+      "fontWeight": "bold",
+      "border": "2px dashed #F31C1C",
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "isWholeLine": true
+    },
+    {
+      "text": "@DEBUG:",
+      "fontWeight": "bold",
+      "border": "2px dashed #000",
+      "color": "#000",
+      "backgroundColor": "#F5F96D",
+      "isWholeLine": true
+    },
+    {
+      "text": "@NOTE:",
+      "color": "#fff",
+      "backgroundColor": "#6D8BF9",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    {
+      "text": "@REVIEW:",
+      "color": "#000",
+      "backgroundColor": "#d4d4d4",
+      "isWholeLine": true
+    },
+    {
+      "text": "@HACK:",
+      "color": "#000",
+      "backgroundColor": "#00f000",
+      "isWholeLine": true
+    },
+    {
+      "text": "@TEST-ME",
+      "color": "#fff",
+      "border": "2px groove #664",
+      "backgroundColor": "#f55f00",
+      "isWholeLine": true
+    },
+    {
+      "text": "@TEST-THIS:",
+      "color": "#000",
+      "border": "2px groove #664",
+      "backgroundColor": "#f55f00",
+      "isWholeLine": true
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "color": "red",
+    "cursor": "pointer",
+    "border": "none",
+    "borderRadius": "4px"
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.py",
+    "**/*.c",
+    "**/*.cc",
+    "**/*.cplusplus",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.md",
+    "**/*.log",
+    "**/*.ini",
+    "**/*.txt"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false
 }

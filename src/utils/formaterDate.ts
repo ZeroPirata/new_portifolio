@@ -1,11 +1,10 @@
-import { format } from "date-fns-tz";
-import { Locale } from "locale";
-
 export const formatLocalDatetime = (unixtime: number) => {
-  const dateObject = new Date(unixtime * 1000);
-  const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  const formattedDate = format(dateObject, "dd/MM/yyyy", {
-    timeZone: userTimezone,
-  });
-  return formattedDate;
-};
+  const dateObject = new Date(unixtime * 1000)
+  const options: Intl.DateTimeFormatOptions = {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+  }
+  const formattedDate = dateObject.toLocaleDateString('pt-BR', options) // Substitua 'pt-BR' pelo código do seu local
+  return formattedDate
+}

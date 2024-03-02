@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;800&family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;800&family=Inter&display=swap');
 
 * {
   font-family: 'JetBrains Mono', monospace;
@@ -13,9 +13,59 @@
 
 :root {
   --ColorDarkBlue: #010326;
-  --ColorMiddleBlue: #010B40;
+  --ColorMiddleBlue: #010b40;
   --ColorLightBlue: #022859;
-  --ColorBlue: #20638C;
-  --ColorBrow: #8C7F77;
-  --ColorWhite: #fffFFF
+  --ColorBlue: #20638c;
+  --ColorBrow: #8c7f77;
+  --ColorWhite: #ffffff;
+}
+
+html,
+body {
+  scrollbar-width: thin;
+  /* Ajusta a largura padrão da scrollbar */
+  scrollbar-color: #f1f1f1 var(--ColorBrow);
+  /* Define as cores da scrollbar */
+}
+
+/* Personalizando o scrollbar vertical */
+::-webkit-scrollbar {
+  width: 10px;
+  /* largura do scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* cor de fundo do scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ColorBrow);
+  /* cor do indicador do scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* cor do indicador do scrollbar ao passar o mouse */
+}
+
+/* Personalizando o scrollbar horizontal */
+::-webkit-scrollbar-horizontal {
+  height: 10px;
+  /* altura do scrollbar */
+}
+
+::-webkit-scrollbar-track-horizontal {
+  background: #f1f1f1;
+  /* cor de fundo do scrollbar */
+}
+
+::-webkit-scrollbar-thumb-horizontal {
+  background: #888;
+  /* cor do indicador do scrollbar */
+}
+
+::-webkit-scrollbar-thumb-horizontal:hover {
+  background: #555;
+  /* cor do indicador do scrollbar ao passar o mouse */
 }

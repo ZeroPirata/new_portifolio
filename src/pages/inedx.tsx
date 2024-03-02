@@ -1,9 +1,13 @@
-import Profile from "./profile";
+import Profile from './profile'
+import Projects from './projects'
 
 const Leading = () => {
-    return (
-        <Profile />
-    );
-};
+  return (
+    <>
+      <Profile />
+      <Projects />
+    </>
+  )
+}
 
-export default Leading;
+export default Leading

@@ -1,3 +1,5 @@
-import { SocialIcons } from "./SocialIcons";
+import { SocialIcons } from './SocialIcons'
+import { RenderSquareProject } from './RenderSquare'
+import { CardProject } from './Cards'
 
-export { SocialIcons };
+export { SocialIcons, RenderSquareProject, CardProject }
