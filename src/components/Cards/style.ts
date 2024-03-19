@@ -10,4 +10,12 @@ export const SCardProject: typeof Card = styled(Card)`
     color: var(--ColorLightBlue);
     font-weight: bolder;
   }
+  a{
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .text-muted{
+    display: flex;
+    justify-content: space-between;
+  }
 `

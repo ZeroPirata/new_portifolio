@@ -1,13 +1,18 @@
 import { ProjectSection } from './style'
-import jsonProjects from 'static/projects.json'
 import { CardProject, RenderSquareProject } from '../../components'
 import { Col, Container, Row } from 'react-bootstrap'
 import './style'
 import { useEffect, useState } from 'react'
 import { IProjects } from 'interfaces/projects'
+import { useTranslation } from 'react-i18next'
 
 const Projects = () => {
-  const jsonProject = jsonProjects
+  const { i18n } = useTranslation()
+  const [t] = useTranslation(['projects'])
+
+  const jsonProject: IProjects[] = t('projects:projetos', {
+    returnObjects: true,
+  })
   const [selectedProject, setSelectedProject] = useState<IProjects | null>(null)
   const [index, setIndex] = useState(0)
 
@@ -30,10 +35,14 @@ const Projects = () => {
     <ProjectSection>
       <Container>
         <Row className="container-main">
-          <h1 className="border-black text-center">Projetos Realizados</h1>
+          <h1 className="border-black text-center">
+            {i18n.language === 'pt-BR'
+              ? 'Projetos Realizados'
+              : 'Projects Completed'}
+          </h1>
           <Col lg="5" className="block-list">
             <div className="container-images">
-              {jsonProject?.map((p, index) => (
+              {jsonProject?.map((p: IProjects, index: number) => (
                 <button key={index} onClick={() => handleClick(p, index)}>
                   <RenderSquareProject imagens={p.imagens[0]} />
                 </button>
@@ -41,7 +50,9 @@ const Projects = () => {
             </div>
           </Col>
           <Col lg="5" className="m-lg-auto">
-            {selectedProject && <CardProject {...selectedProject} />}
+            {selectedProject && (
+              <CardProject {...selectedProject} index={index} />
+            )}
           </Col>
         </Row>
       </Container>

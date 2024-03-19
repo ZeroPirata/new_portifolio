@@ -6,6 +6,11 @@
   font-family: 'JetBrains Mono', monospace;
 }
 
+#root {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .main {
   height: 100vh;
   background-color: var(--ColorGray);
@@ -15,6 +20,7 @@
   --ColorDarkBlue: #010326;
   --ColorMiddleBlue: #010b40;
   --ColorLightBlue: #022859;
+  --ColorLightBlueOpacity: #0228598e;
   --ColorBlue: #20638c;
   --ColorBrow: #8c7f77;
   --ColorWhite: #ffffff;

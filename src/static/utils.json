@@ -3,28 +3,7 @@
   "placement": "São José dos Campos - SP",
   "title": "Full-Stack Developer ",
   "tecnologies": "C# | Python | TypeScript | SQL | React",
-  "hardSkill": [
-    "Desenvolvimento de softwares",
-    "Banco de dados",
-    "Python",
-    "Typescript",
-    "Java",
-    "C#",
-    "Git",
-    "Git Actions",
-    "CI/CD",
-    "Docker"
-  ],
-  "softSkill": [
-    "Trabalho em equipe",
-    "Comunicativo",
-    "Amigavel",
-    "Companheiro",
-    "Flexibilidade",
-    "Liderança"
-  ],
   "profilePicture": "/profile/profile.png",
-  "motivation": "Motivated by the holistic view of web development, integrating skills across all leagues from server to client to create complete and impactful solutions.",
   "socialMidias": [
     {
       "type": "NetWork",

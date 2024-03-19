@@ -1,0 +1,155 @@
+{
+  "projetos": [
+    {
+      "equipe": "Monkey Type",
+      "empresa": "Fatec SJC",
+      "nome": "FATEC, SJC - 1st Semester DSM",
+      "desafio": "Faced with a pandemic that spread worldwide, educational institutions faced a significant challenge in quickly adapting their academic activities to remote teaching. As a result, there was a significant increase in the use of emails as a communication tool within these institutions, which generated various problems of information loss. In order to address this issue, FATEC São José dos Campos proposed to the first-semester students of the Multiplatform Software Development (DSM) course the creation of an information portal for the teaching, student, and administrative body of Fatec SJC. This portal would have the ability to display and generate notices selectively and controlled, both general and specific for each user, taking into account the respective hierarchies existing in the university. The purpose of this initiative was to improve the internal communication of the institution.",
+      "metodologia": "Scrum",
+      "imagens": [
+        "/monkeytype/um.png",
+        "/monkeytype/dois.png",
+        "/monkeytype/tres.png",
+        "/monkeytype/quatro.png"
+      ],
+      "tecnologia": [
+        { "nome": "HTML", "img": "" },
+        { "nome": "CSS3", "img": "" },
+        { "nome": "JavaScript", "img": "" },
+        { "nome": "Python", "img": "" },
+        { "nome": "Flask", "img": "" },
+        { "nome": "Tailwindcss", "img": "" },
+        { "nome": "PostGress", "img": "" },
+        { "nome": "Git", "img": "" }
+      ],
+      "papel": {
+        "equipe": "Scrum Master",
+        "feitos": "During my first encounter with the Scrum methodology, I felt a bit lost in the initial days of the project. However, as I adapted and got into the rhythm, I began to take on a more active role in the team. I became responsible for preparing tasks to be performed, providing support materials and guidance to assist team colleagues. As I was one of the more experienced members, I also did my best to help others when they asked.\nAdditionally, I had the opportunity to work together with another member to develop our database relationship and the complete backend. This included implementing features such as authentication and email verification. Although my experience with the front-end was briefer, I was involved in the final tweaking of the product to ensure it was aligned with what we had planned and also resolving any bugs that arose.\nOverall, my experience with Scrum was challenging but rewarding. As I became more actively involved in the team, I was able to contribute to the project's progress, both in terms of planning and supporting colleagues, and in implementing important functionalities. I learned a lot by facing obstacles and solving problems, and I look forward to applying these learnings in future Scrum projects."
+      },
+      "dataInicio": 1630281600,
+      "dataFinal": 1636415999,
+      "referencia": "https://github.com/Monkey-Type/API-DSM"
+    },
+    {
+      "equipe": "Excalibur Coders",
+      "empresa": "Ionic",
+      "nome": "IonicRH",
+      "desafio": "In collaboration with the Human Resources and Personnel Department, the development of a platform for talent management within the company, that is, for employees, was proposed. The system's main objective is to unify important processes not only for the HR department but for the entire company. In accordance with the General Data Protection Regulation (GDPR), the platform allows the registration of employees, whether hired as CLT or PJ, providing information about their hiring, document control, personal data, and other resources.\nThe system's idea was jointly defined by the development team and the client, aiming to facilitate the hiring process. The HR Administrator performs the initial creation of the new employee, and then the employee goes through the self-registration process, allowing the administrator to review and approve the submitted information. Each employee will have their own profile, with access to an organizational chart divided by departments, a user list, and they can also access a Learning Path. The Learning Path offers the possibility of sending specific materials and courses to employees.\nThe challenge of this project is to support the Human Resources and Personnel Department, seeking to improve its administrative processes through the development of a company talent management system. After approval in the selection process, it is necessary to automate the registration of the employee (whether CLT or PJ) in a system that provides information about their hiring, documentation control, personal data, among others. Compliance with the GDPR is essential to ensure restricted and secure access to data.",
+      "metodologia": "Scrum",
+      "imagens": [
+        "https://raw.githubusercontent.com/excalibur-coders/IONICRH/master/docs/sprint0/cadastrar_user.PNG",
+        "https://raw.githubusercontent.com/excalibur-coders/IONICRH/master/docs/sprint0/auto_cadastro.PNG",
+        "https://raw.githubusercontent.com/excalibur-coders/IONICRH/master/docs/sprint3/modelagem.PNG"
+      ],
+      "tecnologia": [
+        { "nome": "MySQL", "img": "" },
+        { "nome": "NodeJS", "img": "" },
+        { "nome": "HTML", "img": "" },
+        { "nome": "CSS3", "img": "" },
+        { "nome": "JavaScript", "img": "" },
+        { "nome": "React", "img": "" },
+        { "nome": "Typescript", "img": "" },
+        { "nome": "Git", "img": "" },
+        { "nome": "Aws s3", "img": "" }
+      ],
+      "papel": {
+        "equipe": "Developer",
+        "feitos": "In this project, I joined the development team, where I focused my efforts mainly on working with the database model and backend development. In collaboration with a team member, we implemented features such as login system, JWT authentication, and uploading files and images to the AWS S3 storage service.\nAlthough it was my first experience with TypeScript and React, we faced some initial difficulties. However, as the project progressed, we were able to overcome these challenges and things started to flow more smoothly. Despite my main focus being on the backend, I also took on some front-end tasks, such as integrations between the server and the client, as well as developing necessary pages for the user experience, including video rendering.\nThroughout the project, I was able to enhance my technical skills and gain practical experience in both backend development and front-end tasks. It was rewarding to see the progress and the positive impact of our work on the project."
+      },
+      "dataInicio": 1649894400,
+      "dataFinal": 1654387200,
+      "referencia": "https://github.com/excalibur-coders/IONICRH"
+    },
+    {
+      "equipe": "No Name",
+      "empresa": "UOL",
+      "nome": "ShUOLp",
+      "desafio": "The team dedicated themselves to the challenge proposed by the partner company 'Uol' and developed an innovative solution for the sales website. With a focus on Cross-Selling, our goal was to provide customers with an enhanced shopping experience. When viewing a specific product, the website recommends similar products, encouraging consumption and boosting revenue for the business area.\nUol, a company with a long history in the market, maintains its high relevance among the Brazilian population thanks to the constant adaptation of its platform, always aiming to improve the user experience.\nThe latest addition to the site is the Cross-Selling feature, known for offering additional products or services to existing customers according to their individual needs.\nThis solution takes into account various factors that can influence the suggestion of new products. Thus, the project seeks to ensure that the customer finds the most suitable products for their profile, allowing them to purchase everything they need in a single transaction. With this, our goal is to boost business revenue by providing a complete and personalized shopping experience to our customers.",
+      "metodologia": "Scrum",
+      "imagens": [
+        "https://user-images.githubusercontent.com/68930336/190942130-e3d9f4f8-11cb-4f8e-b3bc-7049a7d2844c.png",
+        "https://user-images.githubusercontent.com/68930336/190942058-3a6cbeb8-f829-4a3b-b20e-dc5c612880cc.png",
+        "https://user-images.githubusercontent.com/88664252/200199651-d9951e46-669e-4b42-b8b4-50d5ad3460d0.png"
+      ],
+      "tecnologia": [
+        { "nome": "Java", "img": "" },
+        { "nome": "Spring", "img": "" },
+        { "nome": "MongDB", "img": "" },
+        { "nome": "React", "img": "" },
+        { "nome": "NodeJS", "img": "" },
+        { "nome": "Typescript", "img": "" }
+      ],
+      "papel": {
+        "equipe": "Developer",
+        "feitos": "In this project, I performed various roles related to the involved technologies. I was responsible for data modeling, development of parts of the backend, implementation of the authentication service, creation of the frontend, and integration between the server and the client. Due to our small team, it was necessary to take on multiple roles, covering different areas of the project.\nAs time passed, we adapted and found a productive rhythm during the final stretch to fulfill all our promises. We faced some challenges, such as difficulties in communicating with the client, which occasionally led to confusion regarding the concept of cross-selling. Additionally, time management was a critical factor due to the number of activities that needed to be delivered within the semester's timeframe.\nDespite the challenges, we were able to overcome them and successfully deliver the project. The experience gained from working in different areas of development allowed us to gain valuable knowledge and skills, as well as strengthen the synergy among team members. We are proud of our work and the results achieved, even in the face of adversity."
+      },
+      "dataInicio": 1663459200,
+      "dataFinal": 1669507200,
+      "referencia": "https://github.com/Group-NoName/noname-documentacoes"
+    },
+    {
+      "equipe": "The Achievers",
+      "empresa": "TecSUS",
+      "nome": "TecSUS",
+      "desafio": "Tecsus is a startup that collects and processes data through wireless sensor networks, also known as the Internet of Things (IoT), in utility areas such as water supply, electricity distribution, and natural gas. With the aim of expanding its portfolio to environmental monitoring and involving high school students in problem-based learning, Tecsus chose to develop low-cost weather stations.\nFor the success of this project, the measurements sent by the sensors must be collected and processed so that they can be visualized through a portal in the form of reports and dashboards. In addition to the informational part, including even the presentation of mathematical concepts for parameter calculations, the system aims to relate the importance of environmental monitoring as a tool to prevent possible natural disasters through the generation of alerts.",
+      "metodologia": "Scrum",
+      "imagens": [
+        "/tecsus/um.png",
+        "/tecsus/dois.png",
+        "/tecsus/tres.jpg",
+        "/tecsus/quatro.jpg"
+      ],
+      "tecnologia": [
+        { "nome": "FireBase", "img": "" },
+        { "nome": "React", "img": "" },
+        { "nome": "Flask", "img": "" },
+        { "nome": "React", "img": "" },
+        { "nome": "Typescript", "img": "" },
+        { "nome": "C", "img": "" },
+        { "nome": "Arduino/ESP32", "img": "" },
+        { "nome": "MySQL", "img": "" },
+        { "nome": "NodeJS", "img": "" },
+        { "nome": "Git", "img": "" },
+        { "nome": "GitHub Actions", "img": "" },
+        { "nome": "SonarQuebe", "img": "" },
+        { "nome": "Jest", "img": "" },
+        { "nome": "Cypress", "img": "" },
+        { "nome": "Python", "img": "" }
+      ],
+      "papel": {
+        "equipe": "Developer",
+        "feitos": "In this project, I acted as a developer, working together with other team members to elaborate the architecture flow, perform database modeling, and develop both the backend and a part of the embedded system. One of the main focuses was the use of Firebase in real-time, where I was responsible for processing and integrating this data into our application, ensuring that everything worked simultaneously. Additionally, I also participated in the development of the frontend, especially in creating the login system, which allowed distinguishing between regular users and company members.\nAnother relevant aspect in which I dedicated efforts was continuous integration. I performed integration tests using Cypress and also contributed to improving code quality. In this sense, we used SonarQube, which was triggered through GitHub Actions. These measures helped us ensure project stability and reliability.\nThroughout the development, we faced challenges that required problem-solving and teamwork. However, with dedication and collaborative work, we overcame obstacles and achieved satisfactory results. The experience gained during the project was enriching, allowing me to enhance my skills in different areas as well as strengthen the understanding of the importance of continuous integration and code quality. I am proud of our work and the positive impact it had on the project as a whole."
+      },
+      "dataInicio": 1678665600,
+      "dataFinal": 1684108800,
+      "referencia": "https://github.com/TheAchieversDSM/API-2023.1"
+    },
+    {
+      "equipe": "The Achievers",
+      "empresa": "Oracle Academy",
+      "nome": "Task Tracker Mobile Application",
+      "desafio": "Oracle Academy, the educational branch of Oracle Corporation, aims to drive education globally, targeting all international institutions, delivering advanced technology knowledge to educators and students. To fulfill this crucial mission, promoting diversity and social inclusion, planning and organization are essential. The challenge proposed was precisely for this reason: an application to assist in task management with prioritization issues. For the success of this project, in addition to activity management, there is also a need for a section dedicated to charts to measure the results obtained over a period of time.",
+      "metodologia": "Scrum",
+      "imagens": [
+        "/oracleacademy/um.png",
+        "/oracleacademy/dois.png",
+        "/oracleacademy/tres.png"
+      ],
+      "tecnologia": [
+        { "nome": "React Native", "img": "" },
+        { "nome": "TypeScript", "img": "" },
+        { "nome": "Node.js", "img": "" },
+        { "nome": "DevOps", "img": "" },
+        { "nome": "Git", "img": "" },
+        { "nome": "MySQL", "img": "" }
+      ],
+      "papel": {
+        "equipe": "Developer",
+        "feitos": "In this project, I acted as a developer, working together with other team members to elaborate the architecture flow, perform database modeling, and develop both the backend and a part of the embedded system. One of the main focuses was the use of Firebase in real-time, where I was responsible for processing and integrating this data into our application, ensuring that everything worked simultaneously. Additionally, I also participated in the development of the frontend, especially in creating the login system, which allowed distinguishing between regular users and company members.\nAnother relevant aspect in which I dedicated efforts was continuous integration. I performed integration tests using Cypress and also contributed to improving code quality. In this sense, we used SonarQube, which was triggered through GitHub Actions. These measures helped us ensure project stability and reliability.\nThroughout the development, we faced challenges that required problem-solving and teamwork. However, with dedication and collaborative work, we overcame obstacles and achieved satisfactory results. The experience gained during the project was enriching, allowing me to enhance my skills in different areas as well as strengthen the understanding of the importance of continuous integration and code quality. I am proud of our work and the positive impact it had on the project as a whole."
+      },
+      "dataInicio": 1677753600,
+      "dataFinal": 1683033600,
+      "referencia": "https://github.com/TheAchieversDSM/API-2023.2"
+    }
+  ]
+}
