@@ -54,12 +54,11 @@ export const BodyCard = styled.div`
   .description-card {
     overflow: hidden;
     color: white;
-    height: 100%;
     width: 100%;
-    display: flex; /* Center the content horizontally */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
 
     .description {
       height: 50%;
@@ -70,14 +69,13 @@ export const BodyCard = styled.div`
     .images {
       overflow: hidden;
       display: flex;
-      justify-content: center; /* Center images horizontally */
-      flex-wrap: wrap; /* Allow images to wrap */
+      justify-content: space-evenly;
       width: 95%;
-      margin: 0 auto; /* Center the images */
+      overflow-x: auto;
     }
 
     img {
-      margin: 5px; /* Add margin between images */
+      margin: 5px; 
       height: 100px;
     }
   }
@@ -99,7 +97,7 @@ export const BodyCard = styled.div`
     .images {
       flex-wrap: wrap; 
       justify-content: center;
-      overflow: scroll; 
+      overflow: auto; 
     }
 
     img {
