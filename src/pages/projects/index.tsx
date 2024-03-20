@@ -1,6 +1,6 @@
 import { ProjectSection } from './style'
 import { CardProject, RenderSquareProject } from '../../components'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Carousel } from 'react-bootstrap'
 import './style'
 import { useEffect, useState } from 'react'
 import { IProjects } from 'interfaces/projects'
@@ -26,11 +26,6 @@ const Projects = () => {
     return () => clearInterval(interval)
   }, [selectedProject, index, jsonProject])
 
-  const handleClick = (project: IProjects, index: number) => {
-    setSelectedProject(project)
-    setIndex(index)
-  }
-
   return (
     <ProjectSection>
       <Container>
@@ -40,7 +35,17 @@ const Projects = () => {
               ? 'Projetos Realizados'
               : 'Projects Completed'}
           </h1>
-          <Col lg="5" className="block-list">
+          <CardProject index={index} />
+        </Row>
+      </Container>
+    </ProjectSection>
+  )
+}
+export default Projects
+
+/* 
+
+<Col lg="5" className="block-list">
             <div className="container-images">
               {jsonProject?.map((p: IProjects, index: number) => (
                 <button key={index} onClick={() => handleClick(p, index)}>
@@ -54,9 +59,5 @@ const Projects = () => {
               <CardProject {...selectedProject} index={index} />
             )}
           </Col>
-        </Row>
-      </Container>
-    </ProjectSection>
-  )
-}
-export default Projects
+
+*/

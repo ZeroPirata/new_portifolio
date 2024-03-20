@@ -4,14 +4,21 @@ export const BodyCard = styled.div`
   background-color: var(--ColorMiddleBlue);
   width: 80%;
   height: 45%;
-  margin: 5px auto;
+  margin: 1em auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
+  padding: 5px;
   justify-items: center;
+  border-radius: 25px;
   grid-template-areas:
     'projeto projeto'
     'info-basic description-card';
+
+    h4{
+      font-weight: bolder;
+      font-size: 1.5em;
+    }
 
   .projeto {
     grid-area: projeto;
@@ -28,11 +35,19 @@ export const BodyCard = styled.div`
     width: 90%;
     padding: 1em;
     overflow: auto;
+    border-radius: 5px;
   }
+
 
   .info-basic > .box-project {
     overflow-y: auto;
     white-space: nowrap;
+    p {
+      font-weight: bolder;
+      span {
+        font-weight: normal;
+      }
+    }
   }
 
   .tecnologias {
@@ -42,7 +57,7 @@ export const BodyCard = styled.div`
     }
 
     .array-tecnologias {
-      p {
+      span {
         font-size: 0.8em;
       }
       width: 100%;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button, Form } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { GiUsaFlag, GiBrazilFlag } from 'react-icons/gi'
 
@@ -21,34 +22,34 @@ export const LanguageSwitcher: React.FC = () => {
         alignItems: 'flex-end',
       }}
     >
-      <button
-        style={{
-          marginBottom: '5px',
-          opacity: currentLanguage === 'pt-BR' ? 1 : 0.5,
-          backgroundColor:
-            currentLanguage === 'pt-BR' ? '#009688' : 'transparent',
-          color: currentLanguage === 'pt-BR' ? '#fff' : '#000',
-          borderRadius: '5px',
-          padding: '5px 10px',
+      <Form style={{ marginBottom: '10px' }}>
+        <Form.Check
+          type="switch"
+          id="language-switch"
+          label=""
+          checked={currentLanguage === 'pt-BR'}
+          onChange={() => handleLanguageChange(currentLanguage === 'pt-BR' ? 'en' : 'pt-BR')}
+          style={{ display: 'none' }} // Oculta a bolinha padrão
+        />
+        <label htmlFor="language-switch" style={{
+          backgroundColor: currentLanguage === 'pt-BR' ? '#009688' : '#001f3f',
+          borderRadius: '30px',
+          padding: '8px',
           cursor: 'pointer',
-        }}
-        onClick={() => handleLanguageChange('pt-BR')}
-      >
-        Português <GiBrazilFlag />
-      </button>
-      <button
-        style={{
-          opacity: currentLanguage === 'en' ? 1 : 0.5,
-          backgroundColor: currentLanguage === 'en' ? '#3f51b5' : 'transparent',
-          color: currentLanguage === 'en' ? '#fff' : '#000',
-          borderRadius: '5px',
-          padding: '5px 10px',
-          cursor: 'pointer',
-        }}
-        onClick={() => handleLanguageChange('en')}
-      >
-        English <GiUsaFlag />
-      </button>
+          display: 'inline-block',
+        }}>
+          <GiBrazilFlag style={{
+            fontSize: '1.5em',
+            color: currentLanguage === 'pt-BR' ? '#fff' : '#000',
+            marginRight: '5px',
+          }} />
+          <GiUsaFlag style={{
+            fontSize: '1.5em',
+            color: currentLanguage === 'en' ? '#fff' : '#000',
+            marginLeft: '5px',
+          }} />
+        </label>
+      </Form>
     </div>
   )
 }

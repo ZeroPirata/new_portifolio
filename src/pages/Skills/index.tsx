@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
     returnObjects: true,
   })
   return (
-    <ContainerStyld fluid>
+    <ContainerStyld>
       <Container>
         <Row className="justify-content-between ajust-row">
           <Col sm="12" className="col-12-text">
@@ -21,13 +21,13 @@ const Skills: React.FC = () => {
           <Col sm="5" className="skills-container">
             <h3>Hard Skill</h3>
             {hardSkillList.map((skill) => (
-              <li>{skill}</li>
+              <li key={skill}>{skill}</li>
             ))}
           </Col>
           <Col sm="5" className="skills-container">
             <h3>Soft Skill</h3>
             {softSkillList.map((skill) => (
-              <li>{skill}</li>
+              <li key={skill}>{skill}</li>
             ))}
           </Col>
         </Row>

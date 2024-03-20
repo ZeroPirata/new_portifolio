@@ -7,7 +7,7 @@ i18n
   .use(initReactI18next)
   .init({
     compatibilityJSON: 'v4',
-    debug: true,
+    debug: false,
     lng: 'pt-BR',
     fallbackLng: 'pt-BR',
     interpolation: {

@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import { IProjects } from 'interfaces/projects'
 
 const SideProjects: React.FC = () => {
+  const { i18n } = useTranslation()
   const [t] = useTranslation(['projects'])
   const jsonProject: IProjects[] = t(`projects:projetos`, {
     returnObjects: true,
@@ -21,7 +22,7 @@ const SideProjects: React.FC = () => {
   return (
     <Container fluid>
       <BodyProjectsFilter>
-        <h1>Projetos</h1>
+        <h1>{i18n.language === "pt-BR" ? "Projetos" : "Projects"}</h1>
         <Pagination>
           {Array.from({ length: Math.ceil(jsonProject.length / projectsPerPage) }).map((_, index) => (
             <Pagination.Item key={index} active={index + 1 === currentPage} onClick={() => paginate(index + 1)}

@@ -6,8 +6,7 @@
   font-family: 'JetBrains Mono', monospace;
 }
 
-#root {
-  width: 100vw;
+body {
   overflow-x: hidden;
 }
 

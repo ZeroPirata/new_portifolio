@@ -2,8 +2,9 @@ import { IProjects } from 'interfaces/projects'
 import { BodyCard } from './style'
 import { formatLocalDatetime } from 'utils/formaterDate'
 import { imagePathResolve } from 'utils/imageresolver'
-import { SocialIcons } from 'components'
+import { ImageModal, SocialIcons } from 'components'
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
 interface IProps extends IProjects {
   index: number
 }
@@ -11,10 +12,21 @@ interface IProps extends IProjects {
 export const SideCards: React.FC<IProps> = ({ ...project }: IProps) => {
   const { i18n } = useTranslation()
   const boolean = i18n.language === "pt-BR"
+
+  const [selectedImage, setSelectedImage] = useState('');
+
+  const handleImageClick = (imageSrc: string) => {
+    setSelectedImage(imageSrc);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImage('');
+  };
+
   return (
     <BodyCard>
       <div className="projeto">
-        <h3>{boolean ? "Equipe" : "Team"} - {project.equipe}</h3>
+        <h4>{boolean ? "Equipe" : "Team"} - {project.equipe}</h4>
         <SocialIcons
           key={project.index}
           name={'github'}
@@ -44,18 +56,18 @@ export const SideCards: React.FC<IProps> = ({ ...project }: IProps) => {
             </span>
           </p>
           <p>
-            {boolean ? "Função" : "Occupation"} <br />- {project.papel.equipe}
+            {boolean ? "Função" : "Occupation"} <br />- <span> {project.papel.equipe}</span>
           </p>
           <div className="tecnologias">
             <p>{boolean ? "Tecnologias e Ferramentas" : "Technologies and Tools"}</p>
             <div className="array-tecnologias">
-              <p>
+              <span>
                 {project.tecnologia.map((t, index) =>
                   index === project.tecnologia.length - 1
                     ? t.nome
                     : t.nome + ' - ',
                 )}
-              </p>
+              </span>
             </div>
           </div>
         </div>
@@ -66,11 +78,20 @@ export const SideCards: React.FC<IProps> = ({ ...project }: IProps) => {
           <p>{project.desafio}</p>
         </div>
         <div className="images">
-          {project.imagens.map((i) => (
-            <img src={imagePathResolve(i)} alt={project.nome + '-image'} />
+          {project.imagens.map((i, index) => (
+            <img
+              key={index}
+              src={imagePathResolve(i)}
+              alt={project.nome + '-image'}
+              onClick={() => handleImageClick(imagePathResolve(i))}
+              style={{ cursor: 'pointer' }}
+            />
           ))}
         </div>
       </div>
+      {selectedImage && (
+        <ImageModal src={selectedImage} alt={project.nome + '-image'} onClose={handleCloseModal} />
+      )}
     </BodyCard>
   )
 }

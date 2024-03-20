@@ -7,7 +7,9 @@ interface Props {
   imagens: string
 }
 
-const StyleRender = styled(Image)`
+const StyleRender = styled(Image).attrs({
+  fluid: true
+})`
   margin: 1em 0;
   padding-left: 1em;
   border-radius: 10px;
@@ -16,5 +18,5 @@ const StyleRender = styled(Image)`
 
 export const RenderSquareProject: React.FC<Props> = ({ imagens }) => {
   const profilePictureRender = imagePathResolve(imagens)
-  return <StyleRender fluid src={profilePictureRender} />
+  return <StyleRender src={profilePictureRender} />
 }
