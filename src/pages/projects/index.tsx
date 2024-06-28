@@ -32,8 +32,8 @@ const Projects = () => {
         <Row className="container-main">
           <h1 className="border-black text-center">
             {i18n.language === 'pt-BR'
-              ? 'Projetos Realizados'
-              : 'Projects Completed'}
+              ? 'FATEC: Projetos Integradores'
+              : 'FATEC: Integrative Projects'}
           </h1>
           <CardProject index={index} />
         </Row>
@@ -42,22 +42,3 @@ const Projects = () => {
   )
 }
 export default Projects
-
-/* 
-
-<Col lg="5" className="block-list">
-            <div className="container-images">
-              {jsonProject?.map((p: IProjects, index: number) => (
-                <button key={index} onClick={() => handleClick(p, index)}>
-                  <RenderSquareProject imagens={p.imagens[0]} />
-                </button>
-              ))}
-            </div>
-          </Col>
-          <Col lg="5" className="m-lg-auto">
-            {selectedProject && (
-              <CardProject {...selectedProject} index={index} />
-            )}
-          </Col>
-
-*/

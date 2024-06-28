@@ -150,6 +150,32 @@
       "dataInicio": 1677753600,
       "dataFinal": 1683033600,
       "referencia": "https://github.com/TheAchieversDSM/API-2023.2"
+    },
+    {
+      "equipe": "The Achievers",
+      "empresa": "Dom Rock",
+      "nome": "Kitsune Data Solutions",
+      "desafio": "Dom Rock, an innovative technology company specializing in customized software solutions and IT consulting, aims to boost productivity by making strategic decision-making more agile and simplified through the integration of artificial intelligence, complex models, and datalake architectures. To ensure the success of the project, dynamic dashboards with filters were suggested to assist in data analysis of customer reviews of specific products. This information is pre-processed using Natural Language Processing techniques.",
+      "metodologia": "Scrum",
+      "imagens": [
+        "/oracleacademy/um.png",
+        "/oracleacademy/dois.png",
+        "/oracleacademy/tres.png"
+      ],
+      "tecnologia": [
+        { "nome": "React", "img": "" },
+        { "nome": "TypeScript", "img": "" },
+        { "nome": "Node.js", "img": "" },
+        { "nome": "FastAPI", "img": "" },
+        { "nome": "Python", "img": "" }
+      ],
+      "papel": {
+        "equipe": "Developer",
+        "feitos": "In this project, I acted as a developer, working together with other team members to elaborate the architecture flow, perform database modeling, and develop both the backend and a part of the embedded system. One of the main focuses was the use of Firebase in real-time, where I was responsible for processing and integrating this data into our application, ensuring that everything worked simultaneously. Additionally, I also participated in the development of the frontend, especially in creating the login system, which allowed distinguishing between regular users and company members.\nAnother relevant aspect in which I dedicated efforts was continuous integration. I performed integration tests using Cypress and also contributed to improving code quality. In this sense, we used SonarQube, which was triggered through GitHub Actions. These measures helped us ensure project stability and reliability.\nThroughout the development, we faced challenges that required problem-solving and teamwork. However, with dedication and collaborative work, we overcame obstacles and achieved satisfactory results. The experience gained during the project was enriching, allowing me to enhance my skills in different areas as well as strengthen the understanding of the importance of continuous integration and code quality. I am proud of our work and the positive impact it had on the project as a whole."
+      },
+      "dataInicio": 1711389600,
+      "dataFinal": 1716832800,
+      "referencia": "https://github.com/TheAchieversDSM/API-2023.2"
     }
   ]
 }
