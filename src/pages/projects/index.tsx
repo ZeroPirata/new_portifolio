@@ -32,8 +32,8 @@ const Projects = () => {
         <Row className="container-main">
           <h1 className="border-black text-center">
             {i18n.language === 'pt-BR'
-              ? 'FATEC: Projetos Integradores'
-              : 'FATEC: Integrative Projects'}
+              ? 'Projetos Integradores'
+              : 'Integrative Projects'}
           </h1>
           <CardProject index={index} />
         </Row>

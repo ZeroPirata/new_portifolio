@@ -22,7 +22,7 @@ const SideProjects: React.FC = () => {
   return (
     <Container fluid>
       <BodyProjectsFilter>
-        <h1>{i18n.language === "pt-BR" ? "Projetos" : "Projects"}</h1>
+        <h1>{i18n.language === "pt-BR" ? "FATEC: Projetos Integradores" : "FATEC: Integrative Projects"}</h1>
         <Pagination>
           {Array.from({ length: Math.ceil(jsonProject.length / projectsPerPage) }).map((_, index) => (
             <Pagination.Item key={index} active={index + 1 === currentPage} onClick={() => paginate(index + 1)}

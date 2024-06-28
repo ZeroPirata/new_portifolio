@@ -158,9 +158,8 @@
       "desafio": "Dom Rock, an innovative technology company specializing in customized software solutions and IT consulting, aims to boost productivity by making strategic decision-making more agile and simplified through the integration of artificial intelligence, complex models, and datalake architectures. To ensure the success of the project, dynamic dashboards with filters were suggested to assist in data analysis of customer reviews of specific products. This information is pre-processed using Natural Language Processing techniques.",
       "metodologia": "Scrum",
       "imagens": [
-        "/oracleacademy/um.png",
-        "/oracleacademy/dois.png",
-        "/oracleacademy/tres.png"
+        "https://private-user-images.githubusercontent.com/78803504/322339297-6e0ea075-3bf3-4f79-bfc6-c1fcca341072.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1ODMzOTQsIm5iZiI6MTcxOTU4MzA5NCwicGF0aCI6Ii83ODgwMzUwNC8zMjIzMzkyOTctNmUwZWEwNzUtM2JmMy00Zjc5LWJmYzYtYzFmY2NhMzQxMDcyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjI4VDEzNTgxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5NzdhZmFjYzdjMTlkMGNkMTIzNjdjMzIzZTlhZTJiMzU5MDczZTA4MWVkN2Q1ODc3MjI5YWVjMmQ1OWUwZDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LCJtxakQv2PpJ916_izbo3YfqgULISsxvSvShG_zWCI",
+        "https://private-user-images.githubusercontent.com/78803504/328059856-d6734364-96f9-4bd7-bb83-2c04af73dc60.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1ODM0MzAsIm5iZiI6MTcxOTU4MzEzMCwicGF0aCI6Ii83ODgwMzUwNC8zMjgwNTk4NTYtZDY3MzQzNjQtOTZmOS00YmQ3LWJiODMtMmMwNGFmNzNkYzYwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjI4VDEzNTg1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzNjBiYWI0MzI3NjNiMDI2NzY0ZGU1NDI1M2M1MDUwYzE3N2EwZjc5YmUzNjhmMTBkZDQ5M2Y1OTM5MTI0NDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lp_LH8DfzK6pwRk6ZH93y9gTEtlaRSnDFEtU7uIs43A"      
       ],
       "tecnologia": [
         { "nome": "React", "img": "" },
@@ -175,7 +174,7 @@
       },
       "dataInicio": 1711389600,
       "dataFinal": 1716832800,
-      "referencia": "https://github.com/TheAchieversDSM/API-2023.2"
+      "referencia": "https://github.com/TheAchieversDSM/API-2024.1"
     }
   ]
 }
